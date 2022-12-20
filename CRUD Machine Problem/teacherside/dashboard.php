@@ -42,7 +42,7 @@ include '../assets/auth.php';
                             <strong><?= $result->username ?></strong>
                         </span>
                         <br>
-                        <span class="user-role">Teacher</span>
+                        <span class="user-role"><?= $result->department ?> Teacher</span>
                     </div>
                 </div>
                 <hr>
